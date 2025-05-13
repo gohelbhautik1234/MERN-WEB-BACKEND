@@ -10,3 +10,4 @@ const productRoutes = require('./routes/productRoutes');
 app.use('/',userRoutes);
 app.use('/',productRoutes);
 // app.listen(process.env.PORT || 5000);
+module.exports=app;
